@@ -1,0 +1,14 @@
+﻿  modul7.cpp
+C:\Users\user\Desktop\LAB_C++\LABA7again\LABA7again\modul7.cpp(84,14): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\user\Desktop\LAB_C++\LABA7again\LABA7again\modul7.cpp(91,9): warning C4477: "printf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "2" имеет тип "size_t"
+  C:\Users\user\Desktop\LAB_C++\LABA7again\LABA7again\modul7.cpp(91,9):
+  рекомендуется использовать "%zd" в строке форматирования
+  
+C:\Users\user\Desktop\LAB_C++\LABA7again\LABA7again\modul7.cpp(37,9): warning C4101: Route: неиспользованная локальная переменная
+C:\Users\user\Desktop\LAB_C++\LABA7again\LABA7again\modul7.cpp(134,13): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\user\Desktop\LAB_C++\LABA7again\LABA7again\modul7.cpp(178,12): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\user\Desktop\LAB_C++\LABA7again\LABA7again\modul7.cpp(193,16): warning C4309: аргумент: усечение константного значения
+C:\Users\user\Desktop\LAB_C++\LABA7again\LABA7again\modul7.cpp(194,15): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\user\Desktop\LAB_C++\LABA7again\LABA7again\modul7.cpp(202,13): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\user\Desktop\LAB_C++\LABA7again\LABA7again\modul7.cpp(238,13): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+  LABA7again.vcxproj -> C:\Users\user\Desktop\LAB_C++\LABA7again\x64\Debug\LABA7again.exe

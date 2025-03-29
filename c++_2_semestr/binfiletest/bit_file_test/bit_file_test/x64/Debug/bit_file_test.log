@@ -1,0 +1,7 @@
+﻿  bit_file_test.cpp
+C:\Users\user\Desktop\LAB_C++\binfiletest\bit_file_test\bit_file_test\bit_file_test.cpp(83,14): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\user\Desktop\LAB_C++\binfiletest\bit_file_test\bit_file_test\bit_file_test.cpp(92,9): warning C4477: "printf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "2" имеет тип "size_t"
+  C:\Users\user\Desktop\LAB_C++\binfiletest\bit_file_test\bit_file_test\bit_file_test.cpp(92,9):
+  рекомендуется использовать "%zd" в строке форматирования
+  
+  bit_file_test.vcxproj -> C:\Users\user\Desktop\LAB_C++\binfiletest\bit_file_test\x64\Debug\bit_file_test.exe

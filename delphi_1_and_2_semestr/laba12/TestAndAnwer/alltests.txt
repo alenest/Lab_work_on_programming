@@ -1,0 +1,1 @@
+"C:\Users\user\Desktop\laba12\Win32\Debug\laba12.exe" "‪C:\Users\user\Desktop\laba12\TestAndAnwer\test1.txt" "‪C:\Users\user\Desktop\laba12\TestAndAnwer\answer.txt''

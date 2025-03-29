@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\c\u002B\u002B_3_semestr\\LABA4_1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7307D355-7B4B-43FC-BC54-EB4BE23D14CD}|LABA4_1\\LABA4_1.vcxproj|C:\\Users\\user\\Desktop\\c\u002B\u002B_3_semestr\\LABA4_1\\LABA4_1\\LABA4_1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7307D355-7B4B-43FC-BC54-EB4BE23D14CD}|LABA4_1\\LABA4_1.vcxproj|solutionrelative:LABA4_1\\LABA4_1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7307D355-7B4B-43FC-BC54-EB4BE23D14CD}|LABA4_1\\LABA4_1.vcxproj|C:\\Users\\user\\Desktop\\c\u002B\u002B_3_semestr\\LABA4_1\\LABA4_1\\ClassDiagram.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
+      "RelativeMoniker": "D:0:0:{7307D355-7B4B-43FC-BC54-EB4BE23D14CD}|LABA4_1\\LABA4_1.vcxproj|solutionrelative:LABA4_1\\ClassDiagram.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClassDiagram.cd",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\c\u002B\u002B_3_semestr\\LABA4_1\\LABA4_1\\ClassDiagram.cd",
+              "RelativeDocumentMoniker": "LABA4_1\\ClassDiagram.cd",
+              "ToolTip": "C:\\Users\\user\\Desktop\\c\u002B\u002B_3_semestr\\LABA4_1\\LABA4_1\\ClassDiagram.cd",
+              "RelativeToolTip": "LABA4_1\\ClassDiagram.cd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
+              "WhenOpened": "2024-11-19T23:34:14.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LABA4_1.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\c\u002B\u002B_3_semestr\\LABA4_1\\LABA4_1\\LABA4_1.cpp",
+              "RelativeDocumentMoniker": "LABA4_1\\LABA4_1.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\c\u002B\u002B_3_semestr\\LABA4_1\\LABA4_1\\LABA4_1.cpp",
+              "RelativeToolTip": "LABA4_1\\LABA4_1.cpp",
+              "ViewState": "AQIAAI8AAAAAAAAAAAAUwLUAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-06T04:27:17.671Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

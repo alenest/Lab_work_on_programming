@@ -1,0 +1,85 @@
+﻿  lab3.cpp
+C:\Users\user\Desktop\ПРОГРАММИРОВАНИЕ\c++_4+semestr\lab3\lab3\lab3.cpp(177,38): error C2248: Set<Airplane>::size: невозможно обратиться к private член, объявленному в классе "Set<Airplane>"
+  C:\Users\user\Desktop\ПРОГРАММИРОВАНИЕ\c++_4+semestr\lab3\lab3\lab3.cpp(29,9):
+   см. объявление "Set<Airplane>::size"
+  C:\Users\user\Desktop\ПРОГРАММИРОВАНИЕ\c++_4+semestr\lab3\lab3\lab3.cpp(25,7):
+   см. объявление "Set<Airplane>"
+  
+C:\Users\user\Desktop\ПРОГРАММИРОВАНИЕ\c++_4+semestr\lab3\lab3\lab3.cpp(178,31): error C2248: Set<Airplane>::elements: невозможно обратиться к private член, объявленному в классе "Set<Airplane>"
+  C:\Users\user\Desktop\ПРОГРАММИРОВАНИЕ\c++_4+semestr\lab3\lab3\lab3.cpp(27,8):
+   см. объявление "Set<Airplane>::elements"
+  C:\Users\user\Desktop\ПРОГРАММИРОВАНИЕ\c++_4+semestr\lab3\lab3\lab3.cpp(25,7):
+   см. объявление "Set<Airplane>"
+  
+C:\Users\user\Desktop\ПРОГРАММИРОВАНИЕ\c++_4+semestr\lab3\lab3\lab3.cpp(195,29): error C2248: Set<Airport>::size: невозможно обратиться к private член, объявленному в классе "Set<Airport>"
+  C:\Users\user\Desktop\ПРОГРАММИРОВАНИЕ\c++_4+semestr\lab3\lab3\lab3.cpp(29,9):
+   см. объявление "Set<Airport>::size"
+  C:\Users\user\Desktop\ПРОГРАММИРОВАНИЕ\c++_4+semestr\lab3\lab3\lab3.cpp(25,7):
+   см. объявление "Set<Airport>"
+  
+C:\Users\user\Desktop\ПРОГРАММИРОВАНИЕ\c++_4+semestr\lab3\lab3\lab3.cpp(196,48): error C2248: Set<Airport>::elements: невозможно обратиться к private член, объявленному в классе "Set<Airport>"
+  C:\Users\user\Desktop\ПРОГРАММИРОВАНИЕ\c++_4+semestr\lab3\lab3\lab3.cpp(27,8):
+   см. объявление "Set<Airport>::elements"
+  C:\Users\user\Desktop\ПРОГРАММИРОВАНИЕ\c++_4+semestr\lab3\lab3\lab3.cpp(25,7):
+   см. объявление "Set<Airport>"
+  
+C:\Users\user\Desktop\ПРОГРАММИРОВАНИЕ\c++_4+semestr\lab3\lab3\lab3.cpp(196,77): error C2248: Set<Airplane>::size: невозможно обратиться к private член, объявленному в классе "Set<Airplane>"
+  C:\Users\user\Desktop\ПРОГРАММИРОВАНИЕ\c++_4+semestr\lab3\lab3\lab3.cpp(29,9):
+   см. объявление "Set<Airplane>::size"
+  C:\Users\user\Desktop\ПРОГРАММИРОВАНИЕ\c++_4+semestr\lab3\lab3\lab3.cpp(25,7):
+   см. объявление "Set<Airplane>"
+  
+C:\Users\user\Desktop\ПРОГРАММИРОВАНИЕ\c++_4+semestr\lab3\lab3\lab3.cpp(196,95): error C2248: Set<Airplane>::size: невозможно обратиться к private член, объявленному в классе "Set<Airplane>"
+  C:\Users\user\Desktop\ПРОГРАММИРОВАНИЕ\c++_4+semestr\lab3\lab3\lab3.cpp(29,9):
+   см. объявление "Set<Airplane>::size"
+  C:\Users\user\Desktop\ПРОГРАММИРОВАНИЕ\c++_4+semestr\lab3\lab3\lab3.cpp(25,7):
+   см. объявление "Set<Airplane>"
+  
+C:\Users\user\Desktop\ПРОГРАММИРОВАНИЕ\c++_4+semestr\lab3\lab3\lab3.cpp(197,29): error C2248: Set<Airport>::elements: невозможно обратиться к private член, объявленному в классе "Set<Airport>"
+  C:\Users\user\Desktop\ПРОГРАММИРОВАНИЕ\c++_4+semestr\lab3\lab3\lab3.cpp(27,8):
+   см. объявление "Set<Airport>::elements"
+  C:\Users\user\Desktop\ПРОГРАММИРОВАНИЕ\c++_4+semestr\lab3\lab3\lab3.cpp(25,7):
+   см. объявление "Set<Airport>"
+  
+C:\Users\user\Desktop\ПРОГРАММИРОВАНИЕ\c++_4+semestr\lab3\lab3\lab3.cpp(205,29): error C2248: Set<Airport>::size: невозможно обратиться к private член, объявленному в классе "Set<Airport>"
+  C:\Users\user\Desktop\ПРОГРАММИРОВАНИЕ\c++_4+semestr\lab3\lab3\lab3.cpp(29,9):
+   см. объявление "Set<Airport>::size"
+  C:\Users\user\Desktop\ПРОГРАММИРОВАНИЕ\c++_4+semestr\lab3\lab3\lab3.cpp(25,7):
+   см. объявление "Set<Airport>"
+  
+C:\Users\user\Desktop\ПРОГРАММИРОВАНИЕ\c++_4+semestr\lab3\lab3\lab3.cpp(206,63): error C2248: Set<Airport>::elements: невозможно обратиться к private член, объявленному в классе "Set<Airport>"
+  C:\Users\user\Desktop\ПРОГРАММИРОВАНИЕ\c++_4+semestr\lab3\lab3\lab3.cpp(27,8):
+   см. объявление "Set<Airport>::elements"
+  C:\Users\user\Desktop\ПРОГРАММИРОВАНИЕ\c++_4+semestr\lab3\lab3\lab3.cpp(25,7):
+   см. объявление "Set<Airport>"
+  
+C:\Users\user\Desktop\ПРОГРАММИРОВАНИЕ\c++_4+semestr\lab3\lab3\lab3.cpp(210,45): error C2248: Set<Airplane>::size: невозможно обратиться к private член, объявленному в классе "Set<Airplane>"
+  C:\Users\user\Desktop\ПРОГРАММИРОВАНИЕ\c++_4+semestr\lab3\lab3\lab3.cpp(29,9):
+   см. объявление "Set<Airplane>::size"
+  C:\Users\user\Desktop\ПРОГРАММИРОВАНИЕ\c++_4+semestr\lab3\lab3\lab3.cpp(25,7):
+   см. объявление "Set<Airplane>"
+  
+C:\Users\user\Desktop\ПРОГРАММИРОВАНИЕ\c++_4+semestr\lab3\lab3\lab3.cpp(211,50): error C2248: Set<Airplane>::elements: невозможно обратиться к private член, объявленному в классе "Set<Airplane>"
+  C:\Users\user\Desktop\ПРОГРАММИРОВАНИЕ\c++_4+semestr\lab3\lab3\lab3.cpp(27,8):
+   см. объявление "Set<Airplane>::elements"
+  C:\Users\user\Desktop\ПРОГРАММИРОВАНИЕ\c++_4+semestr\lab3\lab3\lab3.cpp(25,7):
+   см. объявление "Set<Airplane>"
+  
+C:\Users\user\Desktop\ПРОГРАММИРОВАНИЕ\c++_4+semestr\lab3\lab3\lab3.cpp(220,29): error C2248: Set<Airport>::size: невозможно обратиться к private член, объявленному в классе "Set<Airport>"
+  C:\Users\user\Desktop\ПРОГРАММИРОВАНИЕ\c++_4+semestr\lab3\lab3\lab3.cpp(29,9):
+   см. объявление "Set<Airport>::size"
+  C:\Users\user\Desktop\ПРОГРАММИРОВАНИЕ\c++_4+semestr\lab3\lab3\lab3.cpp(25,7):
+   см. объявление "Set<Airport>"
+  
+C:\Users\user\Desktop\ПРОГРАММИРОВАНИЕ\c++_4+semestr\lab3\lab3\lab3.cpp(221,25): error C2248: Set<Airport>::elements: невозможно обратиться к private член, объявленному в классе "Set<Airport>"
+  C:\Users\user\Desktop\ПРОГРАММИРОВАНИЕ\c++_4+semestr\lab3\lab3\lab3.cpp(27,8):
+   см. объявление "Set<Airport>::elements"
+  C:\Users\user\Desktop\ПРОГРАММИРОВАНИЕ\c++_4+semestr\lab3\lab3\lab3.cpp(25,7):
+   см. объявление "Set<Airport>"
+  
+C:\Users\user\Desktop\ПРОГРАММИРОВАНИЕ\c++_4+semestr\lab3\lab3\lab3.cpp(221,64): error C2248: Set<Airport>::elements: невозможно обратиться к private член, объявленному в классе "Set<Airport>"
+  C:\Users\user\Desktop\ПРОГРАММИРОВАНИЕ\c++_4+semestr\lab3\lab3\lab3.cpp(27,8):
+   см. объявление "Set<Airport>::elements"
+  C:\Users\user\Desktop\ПРОГРАММИРОВАНИЕ\c++_4+semestr\lab3\lab3\lab3.cpp(25,7):
+   см. объявление "Set<Airport>"
+  

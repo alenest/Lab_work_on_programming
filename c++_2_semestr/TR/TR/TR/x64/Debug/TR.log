@@ -1,0 +1,12 @@
+﻿  Matrix_list.cpp
+  TR.cpp
+C:\Users\user\Desktop\LAB_C++\TR\TR\TR\TR.cpp(8,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  TR_App.cpp
+C:\Users\user\Desktop\LAB_C++\TR\TR\TR\TR_App.cpp(60,30): warning C4477: "scanf": в строке форматирования "%d" требуется аргумент типа "int *", но вариативный аргумент "1" имеет тип "TElemValue *"
+C:\Users\user\Desktop\LAB_C++\TR\TR\TR\TR_App.cpp(61,15): warning C4477: "fprintf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "3" имеет тип "TElemValue"
+C:\Users\user\Desktop\LAB_C++\TR\TR\TR\TR_App.cpp(80,8): warning C4551: в вызове функции отсутствует список аргументов
+C:\Users\user\Desktop\LAB_C++\TR\TR\TR\TR_App.cpp(87,8): warning C4551: в вызове функции отсутствует список аргументов
+C:\Users\user\Desktop\LAB_C++\TR\TR\TR\TR_App.cpp(102,8): warning C4551: в вызове функции отсутствует список аргументов
+C:\Users\user\Desktop\LAB_C++\TR\TR\TR\TR_App.cpp(109,8): warning C4551: в вызове функции отсутствует список аргументов
+  Создание кода...
+  TR.vcxproj -> C:\Users\user\Desktop\LAB_C++\TR\TR\x64\Debug\TR.exe

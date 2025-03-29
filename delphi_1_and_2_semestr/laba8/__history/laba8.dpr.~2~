@@ -1,0 +1,61 @@
+program laba8;
+
+{$APPTYPE CONSOLE}
+
+{$R *.res}
+
+uses
+  System.SysUtils;
+
+    const
+      nmax = 10;
+
+    var
+      i,j,n : integer;
+      test, answer : textfile;
+      predzn, promezh : currency;
+      a : array[1..nmax,1..nmax] of currency;
+
+begin
+     AssignFile(test, ParamSTR(1));
+     reset(test);
+     AssignFile(answer, ParamSTR(2));
+     append(test);
+
+     read(test, n);
+     read(test);
+      for i := 1 to n do
+      begin
+          for j := 1 to n do read(test, a[i,j]);
+          read(test);
+      end;
+
+
+
+     for i := 1 to n do
+     begin
+          predzn := a[i,1];
+          if (a[i,1] < 0) then a[i,1] := a[i,1] + a[i,n];
+          for j := 2 to n do
+          begin
+              if a[i,j] < 0 then
+              begin
+                  promezh := a[i,j];
+                  a[i,j]  := a[i,j] + predzn ;
+                  predzn := promezh;
+              end
+              else predzn := a[i,j];
+
+          end;
+
+     end;
+
+   for i := 1 to n do
+     begin
+
+          for j := 1 to n do write(answer, a[i,j]:5:1, ' ');
+           write(answer);
+
+     end;
+
+end.

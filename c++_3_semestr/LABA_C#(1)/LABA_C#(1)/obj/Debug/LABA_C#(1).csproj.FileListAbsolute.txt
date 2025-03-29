@@ -1,0 +1,10 @@
+C:\Users\user\Desktop\c++_3_semestr\LABA_C#(1)\LABA_C#(1)\obj\Debug\LABA_C#(1).csproj.AssemblyReference.cache
+C:\Users\user\Desktop\c++_3_semestr\LABA_C#(1)\LABA_C#(1)\obj\Debug\LABA_C__1_.Properties.Resources.resources
+C:\Users\user\Desktop\c++_3_semestr\LABA_C#(1)\LABA_C#(1)\obj\Debug\LABA_C#(1).csproj.GenerateResource.cache
+C:\Users\user\Desktop\c++_3_semestr\LABA_C#(1)\LABA_C#(1)\obj\Debug\LABA_C#(1).csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\c++_3_semestr\LABA_C#(1)\LABA_C#(1)\obj\Debug\GeographicalEntities.MainForm.resources
+C:\Users\user\Desktop\c++_3_semestr\LABA_C#(1)\LABA_C#(1)\bin\Debug\LABA_C#(1).exe.config
+C:\Users\user\Desktop\c++_3_semestr\LABA_C#(1)\LABA_C#(1)\bin\Debug\LABA_C#(1).exe
+C:\Users\user\Desktop\c++_3_semestr\LABA_C#(1)\LABA_C#(1)\bin\Debug\LABA_C#(1).pdb
+C:\Users\user\Desktop\c++_3_semestr\LABA_C#(1)\LABA_C#(1)\obj\Debug\LABA_C#(1).exe
+C:\Users\user\Desktop\c++_3_semestr\LABA_C#(1)\LABA_C#(1)\obj\Debug\LABA_C#(1).pdb

@@ -1,0 +1,72 @@
+--------------------------------------------------------
+строка: ABC
+
+Методом пузырька: 
+
+Ваша строка: ABC
+next step: BCA
+next step: CBA
+result: CBA
+
+Методом выбора: 
+
+Ваша строка: ABC
+next step: CBA
+next step: CBA
+result: CBA
+--------------------------------------------------------
+строка: CBA
+
+Методом пузырька: 
+
+Ваша строка: CBA
+result: CBA
+
+Методом выбора: 
+
+Ваша строка: CBA
+next step: CBA
+next step: CBA
+result: CBA
+--------------------------------------------------------
+строка: CAaBEbDdec
+
+Методом пузырька: 
+
+Ваша строка: CAaBEbDdec
+next step: CaBEbDdecA
+next step: CBEbDdecaA
+next step: CEbDdecBaA
+next step: ECDdecbBaA
+next step: EDdecCbBaA
+next step: EdeDcCbBaA
+next step: EedDcCbBaA
+next step: eEdDcCbBaA
+result: eEdDcCbBaA
+
+Методом выбора: 
+
+Ваша строка: CAaBEbDdec
+next step: CcaBEbDdeA
+next step: CceBEbDdaA
+next step: CcedEbDBaA
+next step: CcedEDbBaA
+next step: DcedECbBaA
+next step: DEedcCbBaA
+next step: dEeDcCbBaA
+next step: eEdDcCbBaA
+next step: eEdDcCbBaA
+result: eEdDcCbBaA
+--------------------------------------------------------
+строка: AA
+
+Методом пузырька: 
+
+Ваша строка: AA
+result: AA
+
+Методом выбора: 
+
+Ваша строка: AA
+next step: AA
+result: AA

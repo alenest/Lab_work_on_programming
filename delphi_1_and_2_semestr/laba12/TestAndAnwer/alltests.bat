@@ -1,0 +1,8 @@
+"C:\Users\user\Desktop\laba12\Win32\Debug\laba12.exe" "C:\Users\user\Desktop\laba12\TestAndAnwer\test1.txt" "C:\Users\user\Desktop\laba12\TestAndAnwer\answer.txt"
+"C:\Users\user\Desktop\laba12\Win32\Debug\laba12.exe" "C:\Users\user\Desktop\laba12\TestAndAnwer\test2.txt" "C:\Users\user\Desktop\laba12\TestAndAnwer\answer.txt"
+"C:\Users\user\Desktop\laba12\Win32\Debug\laba12.exe" "C:\Users\user\Desktop\laba12\TestAndAnwer\test3.txt" "C:\Users\user\Desktop\laba12\TestAndAnwer\answer.txt"
+"C:\Users\user\Desktop\laba12\Win32\Debug\laba12.exe" "C:\Users\user\Desktop\laba12\TestAndAnwer\test4.txt" "C:\Users\user\Desktop\laba12\TestAndAnwer\answer.txt"
+"C:\Users\user\Desktop\laba12\Win32\Debug\laba12.exe" "C:\Users\user\Desktop\laba12\TestAndAnwer\test5.txt" "C:\Users\user\Desktop\laba12\TestAndAnwer\answer.txt"
+"C:\Users\user\Desktop\laba12\Win32\Debug\laba12.exe" "C:\Users\user\Desktop\laba12\TestAndAnwer\test6.txt" "C:\Users\user\Desktop\laba12\TestAndAnwer\answer.txt"
+"C:\Users\user\Desktop\laba12\Win32\Debug\laba12.exe" "C:\Users\user\Desktop\laba12\TestAndAnwer\test7.txt" "C:\Users\user\Desktop\laba12\TestAndAnwer\answer.txt"
+"C:\Users\user\Desktop\laba12\Win32\Debug\laba12.exe" "C:\Users\user\Desktop\laba12\TestAndAnwer\test8.txt" "C:\Users\user\Desktop\laba12\TestAndAnwer\answer.txt"

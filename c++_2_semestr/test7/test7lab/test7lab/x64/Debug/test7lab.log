@@ -1,0 +1,13 @@
+﻿  test7lab.cpp
+C:\Users\user\Desktop\LAB_C++\test7\test7lab\test7lab\test7lab.cpp(23,14): warning C4566: символ, представленный универсальным именем символа "\u0450", невозможно представить в текущей кодовой странице (1251)
+C:\Users\user\Desktop\LAB_C++\test7\test7lab\test7lab\test7lab.cpp(63,14): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\user\Desktop\LAB_C++\test7\test7lab\test7lab\test7lab.cpp(70,1): warning C4477: "printf": в строке форматирования "%d" требуется аргумент типа "int", но вариативный аргумент "2" имеет тип "size_t"
+  C:\Users\user\Desktop\LAB_C++\test7\test7lab\test7lab\test7lab.cpp(70,1):
+  рекомендуется использовать "%zd" в строке форматирования
+  
+C:\Users\user\Desktop\LAB_C++\test7\test7lab\test7lab\test7lab.cpp(92,13): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\user\Desktop\LAB_C++\test7\test7lab\test7lab\test7lab.cpp(126,12): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\user\Desktop\LAB_C++\test7\test7lab\test7lab\test7lab.cpp(140,16): warning C4309: аргумент: усечение константного значения
+C:\Users\user\Desktop\LAB_C++\test7\test7lab\test7lab\test7lab.cpp(141,15): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\user\Desktop\LAB_C++\test7\test7lab\test7lab\test7lab.cpp(147,13): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+LINK : fatal error LNK1168: не удается открыть C:\Users\user\Desktop\LAB_C++\test7\test7lab\x64\Debug\test7lab.exe для записи

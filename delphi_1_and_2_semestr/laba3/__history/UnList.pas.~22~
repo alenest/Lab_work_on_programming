@@ -1,0 +1,188 @@
+unit UnList;
+
+interface
+
+type
+  TInfo = integer;
+
+  PElem = ^TElem;
+  TElem = record
+      info: TInfo;
+      next: PElem;
+  end;
+  proc = procedure ( var ListN, listK : Pelem);
+  procproc = procedure(var ListN, ListK : Pelem; f1 : proc);
+
+// создать список из одного элемента
+procedure CreateList(var ListN, ListK: PElem; r: TInfo);
+// добавить новый элемент перед первым
+procedure AddFirst(var ListN: PElem; ListK: PElem; r: TInfo);
+// добавить новый элемент в конец списка
+procedure AddLast(ListN: PElem; var ListK: PElem; r: TInfo);
+// добавить новый элемент в середину после ListC (не в конец)
+procedure AddMedium(ListN,ListC,ListK: PElem; r: TInfo);
+// очистить список
+procedure FreeList(var ListN, ListK: PElem);
+
+procedure DeleteLast( var ListN, ListK: Pelem; f: proc);
+
+procedure DeletePos(var ListN, ListK: Pelem; f1: proc);
+//procedure DeletePos(var ListN, ListK: Pelem; f1: proc; f2 : procproc);
+
+implementation
+
+// создать список из одного элемента
+procedure CreateList(var ListN, ListK: PElem; r: TInfo);
+begin
+  New(ListN);
+  ListK:=ListN; // конец и начало совпадают
+  ListN^.info:=r;
+  ListN^.next:=nil;
+end;
+
+// добавить новый элемент перед первым
+procedure AddFirst(var ListN: PElem; ListK: PElem; r: TInfo);
+var Elem: PElem;
+begin
+  new(Elem);
+  Elem^.info:=r;
+  Elem^.next:=ListN;
+  ListN:=Elem; // теперь он 1-ый
+end;
+
+
+
+
+// добавить новый элемент в конец
+procedure AddLast(ListN: PElem; var ListK: PElem; r: TInfo);
+begin
+  new(ListK^.next);
+  ListK^.next^.info:=r;
+  ListK^.next^.next:=nil;
+  ListK:= ListK^.next;
+end;
+
+
+// добавить новый элемент в середину после ListC (не в конец)
+procedure AddMedium(ListN,ListC,ListK: PElem; r: TInfo);
+var Elem: PElem;
+begin
+  new(Elem);
+  Elem^.info:=r;
+  Elem^.next:=ListC^.next; // после него то, что было после ListC
+  ListC^.next:=Elem; // а он сам после ListC
+end;
+
+// очистить список
+procedure FreeList(var ListN, ListK: PElem);
+var Elem: PElem;
+begin
+  Elem:=ListN;
+  while Elem<>nil do
+  begin
+    ListN:=ListN^.next;
+    Dispose(Elem);
+    Elem:=ListN;
+  end;
+  ListK:=nil;
+end;
+
+{procedure DeleteLast( var ListN, ListK : Pelem; f : proc);
+var Elem: PElem; IsLast : boolean; counter : integer;
+  begin
+       IsLast := False;
+       Elem:=ListN;
+       if (ListN = ListK) then F(ListN, ListK)
+       else
+       begin
+          if(Elem^.next = nil)
+          then
+       end;
+  end;
+
+end.}
+
+procedure DeleteLast( var ListN, ListK: Pelem; f:proc);
+var Elem, last: PElem;
+begin
+  if ListN=nil then writeln ('Список пустой, невозможно удалить последний элемент')
+  else if ListN = ListK then
+  begin
+    f(ListN, ListK); writeln('Теперь Список пустой');
+  end
+  else begin
+
+  Elem:=ListN;
+      while Elem^.next <> ListK do
+      begin
+       //writeln('итерация в начале : ', Elem^.info);
+      //if(Elem^.next = ListK) then
+        Elem:=Elem^.next;
+        //writeln('итерация в конце : ', Elem^.info);
+
+      end;
+      //writeln('после цикла : ', Elem^.info);
+  {if(Elem^.next = ListK) then begin Elem^.next := nil; ListK := Elem; end; }
+  last := elem^.next;
+  Elem^.next := nil;
+  ListK := Elem;
+  //Elem := next;
+  Dispose(last);
+  //ListK:=nil;
+   writeln('Последний элемент списка удален.');
+
+  end;
+end;
+
+//procedure DeletePos(var ListN, ListK: PElem; f1 : proc; f2 : procproc);
+procedure DeletePos(var ListN, ListK: PElem; f1 : proc);
+var Elem, Elem1: Pelem; pos, posC : integer; flag : boolean;
+begin
+ if ListN=nil then writeln ('Список пустой, нечего удалять')
+ else begin
+
+    write('Введите позицию, с которой нужно удалить элемент списка (k > 0): ');
+    pos := -1;
+    while pos < 1 do begin readln(pos); if pos < 1 then writeln('Некорректная позиция!'); end;
+    posC := 1; Elem := ListN; flag := False;
+    while (Elem<>nil) and (not flag) do
+    begin
+      if pos = 1 then
+      begin
+        if ListN = ListK then
+         begin
+            f1(ListN, ListK); write('Теперь Список пустой');
+          end
+          else ListN := ListN.next;
+
+        flag := True;
+
+      end
+      else if pos = posC + 1 then
+      begin
+           Elem1 := Elem;//Elem^.next :=
+           Elem:=Elem^.next;
+           //Dispose(Elem);
+           Elem1^.next := Elem.next;
+           flag := True;
+      end
+      //else if elem^.next = nil then f2(ListN, ListK, f1)
+      else Elem:=Elem^.next;
+
+      posC := posC + 1;
+
+    end;
+    if elem = nil then write('Такой позиции нет, в списке элементов меньше')
+    else if flag then
+     begin
+        Dispose(elem);
+        Write('Элемент Удален');
+     end
+
+     //else writeln('это был последний элемент. он удален');
+
+end;
+end;
+
+end.
+

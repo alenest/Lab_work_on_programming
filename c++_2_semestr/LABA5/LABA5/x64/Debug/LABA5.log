@@ -1,0 +1,11 @@
+﻿  LABA5.cpp
+C:\Users\user\Desktop\LAB_C++\LABA5\LABA5\LABA5.cpp(10,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+C:\Users\user\Desktop\LAB_C++\LABA5\LABA5\LABA5.cpp(16,10): warning C4473: "scanf_s": передано недостаточно аргументов для строки формата
+  C:\Users\user\Desktop\LAB_C++\LABA5\LABA5\LABA5.cpp(16,10):
+  заполнители и их параметры ожидают переменное число аргументов в количестве 2, но было предоставлено 1
+  C:\Users\user\Desktop\LAB_C++\LABA5\LABA5\LABA5.cpp(16,10):
+  отсутствующий вариативный аргумент "2" требуется для строки форматирования "%s"
+  C:\Users\user\Desktop\LAB_C++\LABA5\LABA5\LABA5.cpp(16,10):
+  этот аргумент используется в качестве размера буфера
+  
+  LABA5.vcxproj -> C:\Users\user\Desktop\LAB_C++\LABA5\x64\Debug\LABA5.exe

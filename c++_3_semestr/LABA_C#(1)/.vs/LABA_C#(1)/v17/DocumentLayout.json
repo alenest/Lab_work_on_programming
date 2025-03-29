@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\c\u002B\u002B_3_semestr\\LABA_C#(1)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8C6A1A9C-6CA8-4541-A361-5518DDE6636E}|LABA_C#(1)\\LABA_C#(1).csproj|c:\\users\\user\\desktop\\c\u002B\u002B_3_semestr\\laba_c#(1)\\laba_c#(1)\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C6A1A9C-6CA8-4541-A361-5518DDE6636E}|LABA_C#(1)\\LABA_C#(1).csproj|solutionrelative:laba_c#(1)\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C6A1A9C-6CA8-4541-A361-5518DDE6636E}|LABA_C#(1)\\LABA_C#(1).csproj|c:\\users\\user\\desktop\\c\u002B\u002B_3_semestr\\laba_c#(1)\\laba_c#(1)\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C6A1A9C-6CA8-4541-A361-5518DDE6636E}|LABA_C#(1)\\LABA_C#(1).csproj|solutionrelative:laba_c#(1)\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C6A1A9C-6CA8-4541-A361-5518DDE6636E}|LABA_C#(1)\\LABA_C#(1).csproj|c:\\users\\user\\desktop\\c\u002B\u002B_3_semestr\\laba_c#(1)\\laba_c#(1)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C6A1A9C-6CA8-4541-A361-5518DDE6636E}|LABA_C#(1)\\LABA_C#(1).csproj|solutionrelative:laba_c#(1)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C6A1A9C-6CA8-4541-A361-5518DDE6636E}|LABA_C#(1)\\LABA_C#(1).csproj|c:\\users\\user\\desktop\\c\u002B\u002B_3_semestr\\laba_c#(1)\\laba_c#(1)\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
+      "RelativeMoniker": "D:0:0:{8C6A1A9C-6CA8-4541-A361-5518DDE6636E}|LABA_C#(1)\\LABA_C#(1).csproj|solutionrelative:laba_c#(1)\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C6A1A9C-6CA8-4541-A361-5518DDE6636E}|LABA_C#(1)\\LABA_C#(1).csproj|c:\\users\\user\\desktop\\c\u002B\u002B_3_semestr\\laba_c#(1)\\laba_c#(1)\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8C6A1A9C-6CA8-4541-A361-5518DDE6636E}|LABA_C#(1)\\LABA_C#(1).csproj|solutionrelative:laba_c#(1)\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClassDiagram1.cd",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\c\u002B\u002B_3_semestr\\LABA_C#(1)\\LABA_C#(1)\\ClassDiagram1.cd",
+              "RelativeDocumentMoniker": "LABA_C#(1)\\ClassDiagram1.cd",
+              "ToolTip": "C:\\Users\\user\\Desktop\\c\u002B\u002B_3_semestr\\LABA_C#(1)\\LABA_C#(1)\\ClassDiagram1.cd",
+              "RelativeToolTip": "LABA_C#(1)\\ClassDiagram1.cd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
+              "WhenOpened": "2024-12-18T09:32:18.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\c\u002B\u002B_3_semestr\\LABA_C#(1)\\LABA_C#(1)\\Form1.cs",
+              "RelativeDocumentMoniker": "LABA_C#(1)\\Form1.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\c\u002B\u002B_3_semestr\\LABA_C#(1)\\LABA_C#(1)\\Form1.cs",
+              "RelativeToolTip": "LABA_C#(1)\\Form1.cs",
+              "ViewState": "AQIAABMBAAAAAAAAAAAmwPIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T00:44:32.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\c\u002B\u002B_3_semestr\\LABA_C#(1)\\LABA_C#(1)\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "LABA_C#(1)\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\c\u002B\u002B_3_semestr\\LABA_C#(1)\\LABA_C#(1)\\Form1.Designer.cs",
+              "RelativeToolTip": "LABA_C#(1)\\Form1.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAI4AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T00:23:09.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\c\u002B\u002B_3_semestr\\LABA_C#(1)\\LABA_C#(1)\\Program.cs",
+              "RelativeDocumentMoniker": "LABA_C#(1)\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\c\u002B\u002B_3_semestr\\LABA_C#(1)\\LABA_C#(1)\\Program.cs",
+              "RelativeToolTip": "LABA_C#(1)\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T00:40:42.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\c\u002B\u002B_3_semestr\\LABA_C#(1)\\LABA_C#(1)\\Form1.cs",
+              "RelativeDocumentMoniker": "LABA_C#(1)\\Form1.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\c\u002B\u002B_3_semestr\\LABA_C#(1)\\LABA_C#(1)\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "LABA_C#(1)\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T00:22:34.648Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

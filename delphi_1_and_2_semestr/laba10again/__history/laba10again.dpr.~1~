@@ -1,0 +1,12 @@
+program laba10again;
+
+{$APPTYPE CONSOLE}
+
+{$R *.res}
+
+uses
+  System.SysUtils;
+
+begin
+
+end.

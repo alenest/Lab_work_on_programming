@@ -1,0 +1,3 @@
+﻿  lab4_3.cpp
+C:\Users\user\Desktop\ПРОГРАММИРОВАНИЕ\c++_4+semestr\lab4_3\lab4_3\lab4_3.cpp(15,28): warning C4244: return: преобразование "__int64" в "int", возможна потеря данных
+  lab4_3.vcxproj -> C:\Users\user\Desktop\ПРОГРАММИРОВАНИЕ\c++_4+semestr\lab4_3\x64\Debug\lab4_3.exe

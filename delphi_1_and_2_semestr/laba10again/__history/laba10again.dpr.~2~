@@ -1,0 +1,111 @@
+program laba10again;
+
+{$APPTYPE CONSOLE}
+
+{$R *.res}
+
+uses
+  System.SysUtils;
+
+  const Nmax = 15;
+  Type Massiv = array[1..Nmax] of integer;
+
+  procedure Vvod(out Nn : integer; out Aa : massiv; out Tt1, Tt2: integer);
+  var i : byte;
+  begin
+    read(Nn);
+    for i := 1 to Nn do read(aa[i]);
+    read(Tt1,Tt2);
+
+  end;
+
+  procedure PoiskRamok(const N: integer; const A: massiv; const T1, T2 : integer; out ramkaend, ramkabegin, Nomer: integer);
+  var i : integer; flag : boolean;
+  begin
+      ramkaend := n;
+      nomer:= 0;
+
+       ramkabegin := 0;
+       flag := true;
+       i := 1;
+       while (i <= n) and flag do
+       begin
+         if a[i] > T2 then
+         begin
+          ramkabegin := i;
+          flag := false;
+         end;
+         i := i + 1;
+       end;
+       writeln( 'первый цикл ramkabegin = ',ramkabegin);
+       //if ramkabegin = 0 then ramkabegin := 1;
+
+       if (ramkabegin = n) then nomer := -2  //первое число, большее числа t2 является последним числом
+       else
+       begin
+           flag := true;
+           i:= ramkabegin + 1;
+           while (i <= n) and flag do
+           begin
+                if (A[i] < T1) then
+                begin
+                  ramkabegin :=  i;
+                  flag := false;
+                end;
+                i := i + 1;
+           end;
+           writeln( 'второй цикл ramkabegin = ',ramkabegin);
+           if flag = true then nomer := -1 //у нас нет чисел, меньших T1 после T2
+           else
+           begin  //ищем номер последнего T1
+                for i := ramkabegin to n do
+                  begin
+                    if(a[i] < t2) then ramkaend := i;
+                  end;
+           end;
+
+       end;
+    readln;
+    writeln( 'ramkabegin = ',ramkabegin);
+    writeln( 'ramkaend = ',ramkaend);
+    writeln( 'nomer = ',nomer);
+    readln;
+  end;
+
+  procedure PoiskNomeraMin(const N: integer; const A: massiv; const T1, ramkaend, ramkabegin: integer; var Nomer: integer);
+  var i, min: integer;
+  begin
+      if not(nomer = -2) and not(nomer = -1)  then
+      begin
+           if ramkabegin = ramkaend then
+           begin
+             Nomer := ramkaend;
+             writeln( 'Начало и конец равны, наш номер: ', Nomer);
+           end
+           else
+           begin
+
+           end;
+      end;
+
+
+
+  end;
+
+
+  var
+  A : massiv;
+  N, T1, T2, Nomer, ramkabegin, ramkaend, i : integer;
+
+
+
+begin
+
+  Vvod(N, A, T1, T2);
+  PoiskRamok(N, A, T1, T2, ramkaend, ramkabegin, Nomer);
+
+  //PoiskRamok( N , A , T1, T2, ramkaT1 , ramkaT2, NomerPriUslovii) ;
+  //PoiskNomera (N, A, T1, T2, ramkat1, ramkat2,NomerPriUslovii);
+  //Vivod(N, A, T1, T2, ramkat1, ramkat2, NomerPriUslovii);
+
+end.

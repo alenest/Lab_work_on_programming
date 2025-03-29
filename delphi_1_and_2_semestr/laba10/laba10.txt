@@ -1,0 +1,95 @@
+program laba10;
+
+{$APPTYPE CONSOLE}
+
+{$R *.res}
+
+uses
+  System.SysUtils;
+
+
+  const Nmax = 15;
+  Type Massiv = array[1..Nmax] of integer;
+
+
+  procedure Vvod(var Nn : byte; var Aa : massiv; var Tt1, Tt2: integer);
+  var i : byte;
+  begin
+    read(Nn);
+    for i := 1 to Nn do read(aa[i]);
+    read(Tt1,Tt2);
+
+  end;
+
+  procedure PoiskNomeraPoT2(const Nn : byte; const Aa : massiv; const Tt2 : integer; out uslT2: byte);
+  var i : byte; flag : boolean;
+  begin
+      uslT2 := 1;
+
+      i := 1;
+      flag := True;
+      while (i <= Nn) and flag do
+      begin
+           if Aa[i] > Tt2 then  begin uslT2 := i; flag := False; end;
+           i := i + 1;
+      end;
+
+  end;
+
+  procedure PoiskNomeraPoT1(const Nn : byte; const Aa : massiv; const Tt1 : integer; const uslT2 : byte; out uslT1: byte);
+  var i : byte; flag : boolean; min : integer;
+  begin
+       uslT1 := 0;
+
+       i := uslT2;
+       while (i <= Nn) and flag do
+       begin
+         if(aa[i] < Tt1) then
+         begin
+            uslT1 := i;
+             flag := False;
+             //min := aa[i];
+         end;
+        i := i + 1;
+       end;
+
+       if (uslT1 <> 0) then
+       begin
+           for i := uslT1 + 1 to Nn do
+           begin
+                if Aa[i] <= Aa[uslT1] then uslT1 := i;
+           end;
+       end;
+
+  end;
+
+  procedure Vivod(out Nn:byte; Aa: massiv; out Tt1, Tt2 : integer; out usl1: byte);
+  var i : byte;
+  begin
+    readln;
+    writeln('_______________________________________________________________________________');
+    //writeln('',Nn);
+    writeln('Ваш массив:');
+
+    for i := 1 to Nn do write(' ',aa[i]);
+    writeln('T1: ', Tt1,' T2: ',Tt2);
+
+    if (usl1 = 0) then writeln('Нет чисел, меньших T1')
+    else writeln('номер: ', usl1);
+  end;
+
+  var
+  A : massiv;
+  T1, T2: integer;
+  N, i, NomerUslovT2, NomerUslovT1 : byte;
+
+  //NomerUslovT1 : real;
+  //test, answer: textfile;
+
+begin
+  Vvod(N, A, T1, T2);
+  PoiskNomeraPoT2(N, A, T2, NomerUslovT2);
+  PoiskNomeraPoT1(N, A, T1, NomerUslovT2, NomerUslovT1);
+  Vivod(N, A, T1, T2, NomerUslovT1);
+  readln;
+end.

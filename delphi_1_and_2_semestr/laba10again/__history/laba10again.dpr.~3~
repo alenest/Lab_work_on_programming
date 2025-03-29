@@ -1,0 +1,150 @@
+program laba10again;
+
+{$APPTYPE CONSOLE}
+
+{$R *.res}
+
+uses
+  System.SysUtils;
+
+  const Nmax = 15;
+  Type Massiv = array[1..Nmax] of integer;
+
+  procedure Vvod(out N : integer; out A : massiv; out T1, T2: integer);
+  var i : integer;
+  begin
+    read(N);
+    for i := 1 to N do read(a[i]);
+    read(T1,T2);
+
+  end;
+
+  procedure PoiskRamok(const N: integer; const A: massiv; const T1, T2 : integer; out ramkaend, ramkabegin, Nomer: integer);
+  var i : integer; flag : boolean;
+  begin
+      ramkaend := n;
+      nomer:= 0;
+
+       ramkabegin := 0;
+       flag := true;
+       i := 1;
+       while (i <= n) and flag do
+       begin
+         if a[i] > T2 then
+         begin
+          ramkabegin := i;
+          flag := false;
+         end;
+         i := i + 1;
+       end;
+       writeln( 'первый цикл ramkabegin = ',ramkabegin);
+       //if ramkabegin = 0 then ramkabegin := 1;
+
+       if (ramkabegin = n) then nomer := -2  //первое число, большее числа t2 €вл€етс€ последним числом
+       else
+       begin
+           flag := true;
+           i:= ramkabegin + 1;
+           while (i <= n) and flag do
+           begin
+                //writeln('вывожу пройдЄнные циклы ', i);
+                if (A[i] < T1) then
+                begin
+                  ramkabegin :=  i;
+                  flag := false;
+                end;
+                i := i + 1;
+           end;
+           writeln( 'второй цикл ramkabegin = ',ramkabegin);
+           if flag then nomer := -1 //у нас нет чисел, меньших T1 после T2
+           else
+           begin  //ищем номер последнего T1
+                for i := ramkabegin to n do
+                  begin
+                    if(a[i] < t1) then ramkaend := i;
+                  end;
+           end;
+
+       end;
+    readln;
+    writeln( 'ramkabegin = ',ramkabegin);
+    writeln( 'ramkaend = ',ramkaend);
+    writeln( 'nomer = ',nomer);
+    readln;
+  end;
+
+  procedure PoiskNomeraMin(const N: integer; const A: massiv; const T1, ramkaend, ramkabegin: integer; var Nomer: integer);
+  var i, min: integer;
+  begin
+      //writeln('я ¬џѕќЋЌяё—ь');
+      //readln;
+      //writeln('я ¬џѕќЋЌяё—ь');
+      if nomer > -1  then
+      begin
+           if ramkabegin = ramkaend then
+           begin
+             Nomer := ramkaend;
+             writeln( 'Ќачало и конец равны, наш номер: ', Nomer);
+           end
+           else
+           begin
+                 min := a[ramkabegin];
+                 Nomer := ramkabegin;
+                       //for(;;)
+                 for i := ramkabegin+1 to ramkaend do
+                   begin
+                      //writeln('вывожу пройдЄнные циклы ', i);
+                     if a[i] <= min then
+                     begin
+                       min :=  a[i];
+                       Nomer := i;
+                     end;
+                   end;
+                   writeln ('»тоговый номер минимального числа, подход€щего под услови€: ', Nomer);
+           end;
+      end;
+
+
+      readln;
+  end;
+
+
+  procedure vivod(N : integer; A: massiv; T1, T2, ramkabegin, ramkaend, nomer: integer);
+  var i:integer;
+  begin
+      writeln('¬аш массив: ');
+      for i := 1 to N do write(a[i], ' ');
+      writeln(#13#10 + '„исло T1: ',T1,' „исло T2: ',T2);
+
+      case Nomer of
+        -2: begin writeln('ѕервое число, большее числа T2 €вл€етс€ последним число, то есть у нас нет диапазона дл€ поиска чисел, меньших T1'); readln; end;
+        -1: begin writeln('ѕосле первого числа, большего T2, нет чисел, меньших T1'); readln; end;
+        else
+        begin
+             writeln('номер числа, подход€щего под услови€, в массиве: ', nomer);
+             writeln('в массиве под этим номером лежит число : ', a[nomer]);
+             readln;
+        end;
+      end;
+
+  end;
+
+
+  var
+  A : massiv;
+  N, T1, T2, Nomer, ramkabegin, ramkaend, i : integer;
+
+
+
+begin
+
+  Vvod(N, A, T1, T2);
+  PoiskRamok(N, A, T1, T2, ramkaend, ramkabegin, Nomer);
+  PoiskNomeraMin(N, A, T1, ramkaend, ramkabegin, Nomer);
+  vivod(N, A, T1, T2, ramkabegin, ramkaend, nomer);
+
+  //PoiskRamok( N , A , T1, T2, ramkaT1 , ramkaT2, NomerPriUslovii) ;
+  //PoiskNomera (N, A, T1, T2, ramkat1, ramkat2,NomerPriUslovii);
+  //Vivod(N, A, T1, T2, ramkat1, ramkat2, NomerPriUslovii);
+
+end.

@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\LAB_C\u002B\u002B\\LABA5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FBBC6745-267C-47A7-A3A6-C23DF508844E}|LABA5\\LABA5.vcxproj|C:\\Users\\user\\Desktop\\LAB_C\u002B\u002B\\LABA5\\LABA5\\MODUL5.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FBBC6745-267C-47A7-A3A6-C23DF508844E}|LABA5\\LABA5.vcxproj|solutionrelative:LABA5\\MODUL5.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBBC6745-267C-47A7-A3A6-C23DF508844E}|LABA5\\LABA5.vcxproj|C:\\Users\\user\\Desktop\\LAB_C\u002B\u002B\\LABA5\\LABA5\\LABA5.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FBBC6745-267C-47A7-A3A6-C23DF508844E}|LABA5\\LABA5.vcxproj|solutionrelative:LABA5\\LABA5.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LABA5.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\LAB_C\u002B\u002B\\LABA5\\LABA5\\LABA5.cpp",
+              "RelativeDocumentMoniker": "LABA5\\LABA5.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\LAB_C\u002B\u002B\\LABA5\\LABA5\\LABA5.cpp",
+              "RelativeToolTip": "LABA5\\LABA5.cpp",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAA4AAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-04T11:23:00.608Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MODUL5.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\LAB_C\u002B\u002B\\LABA5\\LABA5\\MODUL5.cpp",
+              "RelativeDocumentMoniker": "LABA5\\MODUL5.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\LAB_C\u002B\u002B\\LABA5\\LABA5\\MODUL5.cpp",
+              "RelativeToolTip": "LABA5\\MODUL5.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-04T11:37:03.384Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

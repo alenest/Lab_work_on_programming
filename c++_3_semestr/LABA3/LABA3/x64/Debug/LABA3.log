@@ -1,0 +1,6 @@
+﻿  LABA3.cpp
+C:\Users\user\Desktop\c++_3_semestr\LABA3\LABA3\LABA3.cpp(9,7): error C2371: DATE: переопределение; различные базовые типы
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\wtypes.h(663,16):
+   см. объявление "DATE"
+  
+C:\Users\user\Desktop\c++_3_semestr\LABA3\LABA3\LABA3.cpp(35,1): error C1004: непредвиденное обнаружение конца файла

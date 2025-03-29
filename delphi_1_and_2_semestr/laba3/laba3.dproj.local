@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.378,C:\Users\user\Desktop\laba3\Unit1.pas=C:\Users\user\Desktop\laba3\Unit2_3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.291,C:\Users\user\Desktop\laba3\Unit2_3.pas=C:\Users\user\Desktop\laba3\UnList.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.003,C:\Users\user\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\user\Desktop\laba3\laba3.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.518,C:\Users\user\Desktop\laba3\Unit1.pas=C:\Users\user\Desktop\laba3\UnVar.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.926,=C:\Users\user\Desktop\laba3\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.805,=C:\Users\user\Desktop\laba3\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

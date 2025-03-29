@@ -1,0 +1,5 @@
+"C:\Users\user\Desktop\laba10again\Win32\Debug\laba10again.exe" "C:\Users\user\Desktop\laba10again\TestAndAnwer\test-3.txt" "C:\Users\user\Desktop\laba10again\TestAndAnwer\answer.txt"
+"C:\Users\user\Desktop\laba10again\Win32\Debug\laba10again.exe" "C:\Users\user\Desktop\laba10again\TestAndAnwer\test-2.txt" "C:\Users\user\Desktop\laba10again\TestAndAnwer\answer.txt"
+"C:\Users\user\Desktop\laba10again\Win32\Debug\laba10again.exe" "C:\Users\user\Desktop\laba10again\TestAndAnwer\test-1.txt" "C:\Users\user\Desktop\laba10again\TestAndAnwer\answer.txt"
+"C:\Users\user\Desktop\laba10again\Win32\Debug\laba10again.exe" "C:\Users\user\Desktop\laba10again\TestAndAnwer\test+1.txt" "C:\Users\user\Desktop\laba10again\TestAndAnwer\answer.txt"
+"C:\Users\user\Desktop\laba10again\Win32\Debug\laba10again.exe" "C:\Users\user\Desktop\laba10again\TestAndAnwer\test+2.txt" "C:\Users\user\Desktop\laba10again\TestAndAnwer\answer.txt"

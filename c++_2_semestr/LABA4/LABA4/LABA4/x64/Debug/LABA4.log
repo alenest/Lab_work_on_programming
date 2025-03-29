@@ -1,0 +1,6 @@
+﻿  LABA4.cpp
+C:\Users\user\Desktop\LAB_C++\LABA4\LABA4\LABA4\LABA4.cpp(16,9): warning C4068: неизвестная прагма "argsused"
+C:\Users\user\Desktop\LAB_C++\LABA4\LABA4\LABA4\LABA4.cpp(18,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+C:\Users\user\Desktop\LAB_C++\LABA4\LABA4\LABA4\LABA4.cpp(22,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\user\Desktop\LAB_C++\LABA4\LABA4\LABA4\LABA4.cpp(62,37): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  LABA4.vcxproj -> C:\Users\user\Desktop\LAB_C++\LABA4\LABA4\x64\Debug\LABA4.exe

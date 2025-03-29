@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\LAB_C\u002B\u002B\\test7\\test7lab\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E2FD15E8-6945-45B5-AC84-38C8D72A3472}|test7lab\\test7lab.vcxproj|C:\\Users\\user\\Desktop\\LAB_C\u002B\u002B\\test7\\test7lab\\test7lab\\test7lab.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E2FD15E8-6945-45B5-AC84-38C8D72A3472}|test7lab\\test7lab.vcxproj|solutionrelative:test7lab\\test7lab.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "test7lab.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\LAB_C\u002B\u002B\\test7\\test7lab\\test7lab\\test7lab.cpp",
+              "RelativeDocumentMoniker": "test7lab\\test7lab.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\LAB_C\u002B\u002B\\test7\\test7lab\\test7lab\\test7lab.cpp",
+              "RelativeToolTip": "test7lab\\test7lab.cpp",
+              "ViewState": "AQIAAJ8AAAAAAAAAAAAAAB0AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-19T06:12:38.703Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

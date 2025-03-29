@@ -1,0 +1,37 @@
+program laba9;
+
+{$APPTYPE CONSOLE}
+
+{$R *.res}
+
+uses
+  System.SysUtils;
+
+const
+
+  nmax = 10;
+
+  var
+  i, j : integer;
+  test, answer : TextFile;
+   a : array[1..nmax,1..nmax] of currency;
+
+
+begin
+  readln;
+  try // пробую открыть файл на чтение
+
+  readln;
+
+
+      AssignFile(test, 'POHUI_MNE');
+     //AssignFile(test, ParamSTR(1));
+     reset(test);
+      writeln('pupupupu');
+  except
+      writeln('pampampam');
+  end;
+  writeln('blyaaaaaaaaaaaa');
+  readln;
+
+end.

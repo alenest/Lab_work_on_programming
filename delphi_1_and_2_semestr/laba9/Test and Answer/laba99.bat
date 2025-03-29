@@ -1,0 +1,2 @@
+laba 9.exe "C:\Users\user\Desktop\laba9\Test and Answer\test1.txt" "‪C:\Users\user\Desktop\laba9\Test and Answer\answer.txt"
+laba 9.exe "C:\Users\user\Desktop\laba9\Test and Answer\test2.txt" "‪C:\Users\user\Desktop\laba9\Test and Answer\answer.txt"

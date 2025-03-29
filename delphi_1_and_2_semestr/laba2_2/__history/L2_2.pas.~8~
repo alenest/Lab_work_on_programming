@@ -1,0 +1,286 @@
+﻿Unit  L2_2;   // файл  UnLab2.pas
+Interface
+
+Uses
+  SysUtils;     // ANSIUpperCase и др. -  смена регистра и обработка исключений
+
+Type
+  TConnection = (mobile, landline, fax, other); // с 0 до 5 по умолчанию
+  TPerson = record
+    FIO: record
+      F, I, O: string[30]; // Только статические строки можно сохранить в файл
+      end;
+    Connection: TConnection;
+    PhoneNumber: string[30];
+  end;
+
+//----------первая часть: создание типизированного файла в диалоге
+Procedure CreateTypedFile1();
+
+//----------вторая часть: создание типизированного файла из текстового
+Procedure CreateTypedFile2();
+
+//-------------- третья часть: поиск в типизированном файле ----
+Procedure FindZapis();
+
+//-------------- просмотр типизированного файла ----
+Procedure ViewFile();
+
+Implementation // -----------реализационная часть-----------------
+
+//----------первая часть: создание типизированного файла в диалоге
+Procedure CreateTypedFile1();
+var
+  Person: TPerson;
+  fr: file of TPerson; // типизированный файл - файл записей
+  n, kol: integer;
+  ch: char;
+  FileName:string[80];
+begin
+  if ParamCount<1 then
+  begin
+    writeln('Мало параметров '#13#10'Press enter');
+    readln;  exit
+  end;
+  FileName := ParamStr(1);
+// или простой диалог или через параметры программы при её вызове ParamStr(1)
+// writeln('Введите имя типизированного файла');
+// readln(FileName);
+
+  AssignFile(fr, FileName);
+  Try  ReWrite(fr);    //  или  {$I-} ReWrite(fr); {$I+} и if IOResult<>0 then <ошибка>
+  Except
+    writeln('Error: не удалось создать типизированный файл ',FileName);
+    write('Press ENTER'); readln;  exit
+  end;
+
+  kol:=0;
+  repeat
+    write('Фамилия =?');   readln(Person.FIO.F);
+    write('Имя =?');       readln(Person.FIO.I);
+    write('Отчество =?');  readln(Person.FIO.O);
+// ввод значения перечисляемого типа (TKurs) через доп.переменную n целого типа
+    write(#13#10,'1) mobile;'#13#10' 2)landline;'#13#10' 3)fax; '#13#10' 4)other =?'); readln(n); Person.Connection:=TConnection(n-1);  // 1-6  0-5
+    write('Номер телефона: ');
+    readln(Person.PhoneNumber);
+
+    write(fr, Person);   // запись записи целиком в файл
+    inc(kol);
+
+    write('Ещё? (y/n)');
+    readln(ch)
+  until UpCase(ch)='N';
+
+  CloseFile(fr);
+
+  writeln('Создан типизированный файл из ',kol,' записей');
+  write('Press ENTER');
+  readln;
+end;
+
+//---------------------------------------------------------------------------------------
+//----------вторая часть: создание типизированного файла из текстового
+Procedure CreateTypedFile2();
+var
+  Person: TPerson;
+  ft: TextFile; // текстовый файл
+  fr: file of TPerson; // типизированный файл - файл записей
+  n, kol: integer;
+  ch: char;
+  FileName:string[80];
+begin
+  if ParamCount<2 then
+  begin
+    writeln('Мало параметров '#13#10'Press enter');
+    readln;  exit
+  end;
+
+
+ // или простой диалог или через параметры программы при её вызове ParamStr(2)
+// writeln('Введите имя текстового файла');
+// readln(FileName);
+
+ AssignFile(ft, Paramstr(2));
+  Try  Reset(ft);
+  Except
+    writeln('Error: не удалось открыть текстовый файл ',Paramstr(2));
+    write('Press ENTER'); readln;  exit
+  end;
+
+  FileName:= Paramstr(1);
+  AssignFile(fr, FileName);
+  Try  ReWrite(fr);    //  или  {$I-} ReWrite(fr); {$I+} и if IOResult<>0 then <ошибка>
+  Except
+    writeln('Error: не удалось создать типизированный файл ',FileName);
+    write('Press ENTER'); readln;  exit
+  end;
+
+  kol:=0;
+
+
+  {//----------------- ЗАГЛУШКА --------------------
+  //------------ Напишите код сами, а пока в диалоге: ----------------
+              CreateTypedFile1; // заглушка - создание в диалоге –  заменить на свой код
+                                                                                         }
+
+    while not eof(ft) do
+    begin
+      try
+            With Person do
+        begin
+            With FIO do
+            begin
+                readln(ft,F);
+                readln(ft,i);
+                readln(ft,o);
+            end;
+            readln(ft,n); Person.Connection:=TConnection(n-1);
+            readln(ft, Person.PhoneNumber);
+
+            write(fr, Person);   // запись записи целиком в файл
+            inc(kol);
+        end;
+      except
+            writeln('не удалось считать человека');
+      end;
+
+
+    end;
+
+  CloseFile(ft);
+
+   CloseFile(fr);
+
+  writeln('Создан типизированный файл из ',kol,' записей');
+
+  write('Press ENTER');
+  readln;
+end;
+
+//--------------------------------------------------------------
+//-------------- третья часть: поиск в типизированном файле ----
+Procedure FindZapis();
+var
+  Person, Person2: TPerson;
+  fr: file of TPerson;
+  n, kol: integer;
+  FileName:string[80];
+begin
+  if ParamCount<1 then
+  begin
+    writeln('Мало параметров '#13#10'Press enter');
+    readln;  exit
+  end;
+
+  FileName := ParamStr(1);
+// или простой диалог или через параметры программы при её вызове ParamStr(1)
+// writeln('Введите имя типизированного файла');
+// readln(FileName);
+
+  AssignFile(fr, FileName);
+  Try  ReSet(fr);    //  или  {$I-} ReSet(fr); {$I+} if IOResult<>0 then
+  Except
+    writeln('Error: не удалось открыть типизированный файл ',FileName);
+    write('Press ENTER'); readln;  exit
+  end;
+
+  kol:=0;
+  while not eof(fr) and (kol=0) do
+  begin
+    read(fr, Person); // считывание
+       // Если Иван c первого курса бакалавриата с хотя бы одной пятеркой
+    if (Person.PhoneNumber[Length(Person.PhoneNumber)] = '0' ) then  // сравнение в верхнем регистре
+    begin
+      writeln('Найден ', Person.FIO.I,' ',Person.FIO.O,' ',Person.FIO.F, #13#10,
+      'номер телефона ', Person.PhoneNumber);
+      inc(kol);
+
+      //if Filesize() then
+
+      try
+          n:=FilePos(fr)-1;  //позиция найденной записи
+          seek(fr,n+1); read(fr,Person2);
+          seek(fr,n+1); write(fr,Person);
+          seek(fr,n); write(fr,Person2);
+
+          writeln('В файле изменена запись номер ', n+1);
+      except
+            writeln('не удалось поменять местами');
+      end;
+
+
+      {// Изменение считанного
+      Stud.o1:=3; Stud.o2:=3; Stud.o3:=3;
+      n:=FilePos(fr)-1; // позиция найденной записи – перед текущей
+      // запись изменений "поверх" предыдущей версии
+      seek(fr, n); // изменить тек.позицию в файле
+      write(fr, Stud);       // запись в файле изменена
+      writeln('В файле изменена запись номер ', n+1) }
+
+    end;
+  end;
+
+  if kol=0 then
+    writeln('Данные, соответствующие запросу, не найдены');
+
+  CloseFile(fr);
+
+  write('Press ENTER');  readln;
+end;
+//--------------------------------------------------------------
+//-------------- просмотр типизированного файла ----
+Procedure ViewFile();
+var
+  Person: TPerson;
+  fr: file of TPerson;
+  n, kol: integer;
+  FileName:string[80];
+begin
+  if ParamCount<1 then
+  begin
+    writeln('Мало параметров '#13#10'Press enter');
+    readln;  exit
+  end;
+
+  FileName := ParamStr(1);
+// или простой диалог или через параметры программы при её вызове ParamStr(1)
+// writeln('Введите имя типизированного файла');
+// readln(FileName);
+
+  AssignFile(fr, FileName);
+  Try  ReSet(fr);    //  или  {$I-} ReSet(fr); {$I+} if IOResult<>0 then
+  Except
+    writeln('Error: не удалось открыть типизированный файл ',FileName);
+    write('Press ENTER'); readln;  exit
+  end;
+
+  kol:=0;
+  while not eof(fr) do
+  begin
+    read(fr, Person); // считывание
+
+      writeln('Найден ', Person.FIO.I,' ',Person.FIO.O,' ',Person.FIO.F,
+      #13#10,
+      'телефонный номер ', Person.PhoneNumber, #13#10, 'Тип связи ');
+      case Person.Connection of
+        mobile: Writeln('мобильный', #13#10);
+        landline: Writeln('городской', #13#10) ;
+        fax:Writeln('факс', #13#10) ;
+        other:Writeln('другой', #13#10) ;
+      end;
+
+      inc(kol);
+  end;
+
+  if kol=0 then
+    writeln('Данные не найдены')
+  else
+    writeln('Найдено ',kol, ' записей');
+
+  CloseFile(fr);
+
+  write('Press ENTER');  readln;
+end;
+
+End.
+

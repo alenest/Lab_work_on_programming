@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\\u041F\u0420\u041E\u0413\u0420\u0410\u041C\u041C\u0418\u0420\u041E\u0412\u0410\u041D\u0418\u0415\\c\u002B\u002B_3_semestr\\LABA4_2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{88BDBBAA-BBF1-4539-B974-835CCC2D232A}|LABA4_2\\LABA4_2.vcxproj|C:\\Users\\user\\Desktop\\\u041F\u0420\u041E\u0413\u0420\u0410\u041C\u041C\u0418\u0420\u041E\u0412\u0410\u041D\u0418\u0415\\c\u002B\u002B_3_semestr\\LABA4_2\\LABA4_2\\LABA4_2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{88BDBBAA-BBF1-4539-B974-835CCC2D232A}|LABA4_2\\LABA4_2.vcxproj|solutionrelative:LABA4_2\\LABA4_2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88BDBBAA-BBF1-4539-B974-835CCC2D232A}|LABA4_2\\LABA4_2.vcxproj|C:\\Users\\user\\Desktop\\\u041F\u0420\u041E\u0413\u0420\u0410\u041C\u041C\u0418\u0420\u041E\u0412\u0410\u041D\u0418\u0415\\c\u002B\u002B_3_semestr\\LABA4_2\\LABA4_2\\ClassDiagram.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
+      "RelativeMoniker": "D:0:0:{88BDBBAA-BBF1-4539-B974-835CCC2D232A}|LABA4_2\\LABA4_2.vcxproj|solutionrelative:LABA4_2\\ClassDiagram.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClassDiagram.cd",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u041F\u0420\u041E\u0413\u0420\u0410\u041C\u041C\u0418\u0420\u041E\u0412\u0410\u041D\u0418\u0415\\c\u002B\u002B_3_semestr\\LABA4_2\\LABA4_2\\ClassDiagram.cd",
+              "RelativeDocumentMoniker": "LABA4_2\\ClassDiagram.cd",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u041F\u0420\u041E\u0413\u0420\u0410\u041C\u041C\u0418\u0420\u041E\u0412\u0410\u041D\u0418\u0415\\c\u002B\u002B_3_semestr\\LABA4_2\\LABA4_2\\ClassDiagram.cd",
+              "RelativeToolTip": "LABA4_2\\ClassDiagram.cd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
+              "WhenOpened": "2024-12-04T08:11:28.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LABA4_2.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u041F\u0420\u041E\u0413\u0420\u0410\u041C\u041C\u0418\u0420\u041E\u0412\u0410\u041D\u0418\u0415\\c\u002B\u002B_3_semestr\\LABA4_2\\LABA4_2\\LABA4_2.cpp",
+              "RelativeDocumentMoniker": "LABA4_2\\LABA4_2.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u041F\u0420\u041E\u0413\u0420\u0410\u041C\u041C\u0418\u0420\u041E\u0412\u0410\u041D\u0418\u0415\\c\u002B\u002B_3_semestr\\LABA4_2\\LABA4_2\\LABA4_2.cpp",
+              "RelativeToolTip": "LABA4_2\\LABA4_2.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-06T09:57:10.294Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

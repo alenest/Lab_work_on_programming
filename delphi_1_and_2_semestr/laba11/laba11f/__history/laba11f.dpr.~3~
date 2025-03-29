@@ -1,0 +1,163 @@
+  program laba11f;
+
+{$APPTYPE CONSOLE}
+
+{$R *.res}
+
+uses
+  System.SysUtils;
+
+const Nmax = 10;
+  Type matrix = array[1..Nmax,1..Nmax] of currency;
+
+  procedure Vvod(out Nn1 : integer; out Aa1 : matrix; out Nn2 : integer; out Aa2 : matrix; out Nn3 : integer; out Aa3 : matrix);
+  var i, j : integer; test: textfile;
+  begin
+    AssignFile(test, ParamSTR(1));
+    reset(test);
+    read(test, Nn1);
+    for i := 1 to nn1 do
+      begin
+          for j := 1 to nn1 do read(test,aa1[i,j]);
+          readln(test);
+
+      end;
+       read(test);
+      read(test, Nn2);
+    for i := 1 to nn2 do
+      begin
+          for j := 1 to nn2 do read(test,aa2[i,j]);
+          readln(test);
+
+      end;
+       read(test);
+      read(test, Nn3);
+    for i := 1 to nn3 do
+      begin
+          for j := 1 to nn3 do read(test,aa3[i,j]);
+          readln(test);
+
+      end;
+    //read(test);
+
+      closeFile(test);
+
+  end;
+
+  function transformation(const N : integer; var A : matrix):integer;
+  var counter : integer; predzn: currency; i, j : integer;
+  begin
+     counter := 0;
+     for i := 1 to n do
+      begin
+          predzn:= a[i][1];
+          for j := 2 to n do
+          begin
+               if (a[i][j] < 0 ) then
+               begin
+                  a[i][j] := a[i][j] + predzn;
+                  counter:= counter + 1;
+               end;
+               predzn:= a[i][1];
+          end;
+          if (a[i][1] < 0 ) then
+          begin
+             a[i][1] := a[i][1] + predzn;
+             counter:= counter + 1;
+          end;
+
+
+      end;
+      transformation := counter;
+  end;
+
+  procedure vivodmatrix(const N : integer; var A : matrix);
+  var answer: TextFile; i,j : integer;
+  begin
+    AssignFile(answer, ParamSTR(2));
+    append(answer);
+    writeln(answer, 'исходна€ матрица: '+ #13#10);
+    for i := 1 to N do
+    begin
+       for j := 1 to N do write(answer,A[i][j]:6:2, '  ');
+       writeln(answer);
+    end;
+    writeln(answer);
+     closeFile(answer);
+  end;
+
+  procedure vivoizmdmatrix(const N : integer; var A : matrix; out counter: integer);
+  var answer: TextFile; i,j : integer;
+  begin
+    AssignFile(answer, ParamSTR(2));
+    append(answer);
+    writeln(answer,#13#10 + 'изменЄнна€ матрица: ' + #13#10 );
+    for i := 1 to N do
+    begin
+       for j := 1 to N do write(answer,A[i][j]:6:2, '  ');
+       writeln(answer);
+    end;
+    writeln(answer,#13#10 +' оличество изменений: ', counter);
+     writeln(answer);
+     closeFile(answer);
+  end;
+
+ //const Nmatrix = 3;
+ function max(const counter1, counter2, counter3 : integer) : integer;
+ var maxim : integer;
+ begin
+
+    maxim := counter1;
+    if maxim < counter2 then maxim :=  counter2;
+    if maxim < counter3 then maxim :=  counter3;
+    max := maxim;
+ end;
+
+var
+n1, n2, n3 : integer;
+A1, A2, A3: matrix;
+izm1, izm2, izm3 : integer;
+i, maxizm : integer;
+answer: TextFile;
+begin
+
+
+  Vvod(N1, A1, N2, A2, N3, A3);
+
+
+  VivodMatrix(N1, A1);
+  izm1 := transformation(N1, A1);
+  vivoizmdmatrix(N1, A1, izm1);
+
+
+  VivodMatrix(N2, A2);
+  izm2 := transformation(N2, A2);
+  vivoizmdmatrix(N2, A2, izm2);
+
+
+  VivodMatrix(N3, A3);
+  izm3 := transformation(N3, A3);
+  vivoizmdmatrix(N3, A3, izm3);
+
+   AssignFile(answer, ParamSTR(2));
+   append(answer);
+
+    maxizm := max(izm1, izm2, izm3);
+    if maxizm = 0 then writeln(answer,#13#10 +'»зменений во всех трЄх матрицах нет')
+    else
+    begin
+         writeln(answer,#13#10 +'ћаксимальное число изменений: ', maxizm, #13#10 + 'ќно соответсвует количеству изменений' );
+         if maxizm = izm1 then writeln(answer,'в первой матрице');
+         if maxizm = izm2 then writeln(answer,'во второй матрице');
+         if maxizm = izm3 then writeln(answer,'в третьей матрице');
+
+    end;
+
+
+
+
+
+   writeln(answer, #13#10 + '_____________________________________________________________');
+   closeFile(answer);
+
+end.

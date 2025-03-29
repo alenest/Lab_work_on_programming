@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\\u041F\u0420\u041E\u0413\u0420\u0410\u041C\u041C\u0418\u0420\u041E\u0412\u0410\u041D\u0418\u0415\\c\u002B\u002B_3_semestr\\laba5_23\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B4C14556-3119-46FE-BF97-A55F212E9D61}|laba5_23\\laba5_23.vcxproj|C:\\Users\\user\\Desktop\\\u041F\u0420\u041E\u0413\u0420\u0410\u041C\u041C\u0418\u0420\u041E\u0412\u0410\u041D\u0418\u0415\\c\u002B\u002B_3_semestr\\laba5_23\\laba5_23\\laba5_23.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B4C14556-3119-46FE-BF97-A55F212E9D61}|laba5_23\\laba5_23.vcxproj|solutionrelative:laba5_23\\laba5_23.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4C14556-3119-46FE-BF97-A55F212E9D61}|laba5_23\\laba5_23.vcxproj|C:\\Users\\user\\Desktop\\\u041F\u0420\u041E\u0413\u0420\u0410\u041C\u041C\u0418\u0420\u041E\u0412\u0410\u041D\u0418\u0415\\c\u002B\u002B_3_semestr\\laba5_23\\laba5_23\\ClassDiagram.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
+      "RelativeMoniker": "D:0:0:{B4C14556-3119-46FE-BF97-A55F212E9D61}|laba5_23\\laba5_23.vcxproj|solutionrelative:laba5_23\\ClassDiagram.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClassDiagram.cd",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u041F\u0420\u041E\u0413\u0420\u0410\u041C\u041C\u0418\u0420\u041E\u0412\u0410\u041D\u0418\u0415\\c\u002B\u002B_3_semestr\\laba5_23\\laba5_23\\ClassDiagram.cd",
+              "RelativeDocumentMoniker": "laba5_23\\ClassDiagram.cd",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u041F\u0420\u041E\u0413\u0420\u0410\u041C\u041C\u0418\u0420\u041E\u0412\u0410\u041D\u0418\u0415\\c\u002B\u002B_3_semestr\\laba5_23\\laba5_23\\ClassDiagram.cd",
+              "RelativeToolTip": "laba5_23\\ClassDiagram.cd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
+              "WhenOpened": "2024-12-04T04:54:25.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "laba5_23.cpp",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\\u041F\u0420\u041E\u0413\u0420\u0410\u041C\u041C\u0418\u0420\u041E\u0412\u0410\u041D\u0418\u0415\\c\u002B\u002B_3_semestr\\laba5_23\\laba5_23\\laba5_23.cpp",
+              "RelativeDocumentMoniker": "laba5_23\\laba5_23.cpp",
+              "ToolTip": "C:\\Users\\user\\Desktop\\\u041F\u0420\u041E\u0413\u0420\u0410\u041C\u041C\u0418\u0420\u041E\u0412\u0410\u041D\u0418\u0415\\c\u002B\u002B_3_semestr\\laba5_23\\laba5_23\\laba5_23.cpp",
+              "RelativeToolTip": "laba5_23\\laba5_23.cpp",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAAAG8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-04T04:08:48.685Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

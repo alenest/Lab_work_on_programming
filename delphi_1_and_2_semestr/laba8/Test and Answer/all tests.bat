@@ -1,0 +1,3 @@
+"C:\Users\user\Desktop\laba8\Win32\Debug\laba8.exe" "C:\Users\user\Desktop\laba8\Test and Answer\test1.txt" "C:\Users\user\Desktop\laba8\Test and Answer\answer.txt"
+"C:\Users\user\Desktop\laba8\Win32\Debug\laba8.exe" "C:\Users\user\Desktop\laba8\Test and Answer\test2.txt" "C:\Users\user\Desktop\laba8\Test and Answer\answer.txt"
+"C:\Users\user\Desktop\laba8\Win32\Debug\laba8.exe" "C:\Users\user\Desktop\laba8\Test and Answer\test3.txt" "C:\Users\user\Desktop\laba8\Test and Answer\answer.txt"

@@ -1,0 +1,102 @@
+program laba7;
+
+{$APPTYPE CONSOLE}
+
+{$R *.res}
+
+
+  //ЛАБЫ - ВСТАВКА И ПУЗЫРЕК
+  // ИЛИ ЧТО-ТО ТАМ И ПУЗЫРЁК
+
+uses
+  Windows,
+  System.SysUtils;
+
+  const
+  Nmax = 200;
+
+  var
+  n, i, u, maxm: integer;
+  otsizmi, nalizmu: boolean;
+
+  promezh : integer;
+  A : array[1..Nmax] of integer;
+  test, answer : textFile;
+
+begin
+        setConsoleCP(1251); // для ввода русификация и
+        setConsoleOutputCP(1251);
+
+        //Assignfile(test, ParamStr(1));
+
+        //reset(test);
+        //Assignfile(answer, ParamStr(2));
+
+        //rewrite(answer);
+
+
+
+       read( n);
+
+       if (n < 1) or (n > Nmax) then writeln( 'Недопустимое значение для n')
+       else
+          begin
+
+              for i := 1 to n do read(A[i]);
+                readln;
+
+                otsizmi := True;
+                i := 1;
+               while (i <= n) and (otsizmi) do
+               begin
+                  nalizmu := False;
+                  for u := 1 to n-i do
+                  begin
+                      if (A[u] < A[u+1]) then
+                          begin
+                              promezh := A[u+1];
+                              A[u+1]  := A[u];
+                              A[u] := promezh;
+                              nalizmu :=  True;
+                          end;
+                  end;
+                   if nalizmu = False then  otsizmi := True;
+
+                     if (otsizmi) then
+                     begin
+                         writeln(' следующий шаг: ');
+                          for u := 1 to n do write(A[u], ' ');
+                     end
+                     else
+                     begin
+                         writeln(' ИТОГ: ');
+                          for u := 1 to n do write(A[u], ' ');
+                     end;
+
+
+
+                  i := i + 1;
+                end;
+        //readln;
+        end;
+
+
+         readln;
+        //CloseFile(test);
+        //CloseFile(answer);
+end.
+
+
+
+
+
+
+
+
+
+  //try
+    { TODO -oUser -cConsole Main : Insert code here }
+  //except
+    //on E: Exception do
+      //Writeln(E.ClassName, ': ', E.Message);
+  //end;

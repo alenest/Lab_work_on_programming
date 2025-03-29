@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Place">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAEAAAAAAAMAAAAAAEAAAAAAgAA=</HashCode>
+      <FileName>LABA5_1.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Megapolis">
+    <Position X="6" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAABAAAAAAAAAEAAAAAAAAAAAAAABE=</HashCode>
+      <FileName>LABA5_1.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="City">
+    <Position X="3" Y="2.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIIABAAAIAAAAAAAAAAEACAAAARAAAAAAAAA=</HashCode>
+      <FileName>LABA5_1.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Region">
+    <Position X="8.25" Y="2.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AACAAAgAiAgAAAAAAAAAAAAAAAEAAgAgAAAAAAAAAAA=</HashCode>
+      <FileName>LABA5_1.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

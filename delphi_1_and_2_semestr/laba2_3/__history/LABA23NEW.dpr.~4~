@@ -1,0 +1,79 @@
+﻿program LABA23NEW;
+
+{$APPTYPE CONSOLE}
+
+{$R *.res}
+
+uses
+  Windows,
+  System.SysUtils;
+
+const
+  Nmax = 200;
+var
+  x, y : array[1..Nmax] of real;
+  CX, CY, ANSWER : real;
+  n, i, nx, ny : integer;
+
+
+begin
+  setConsoleCP(1251); // для ввода русификация и
+  setConsoleOutputCP(1251);
+  write('Количество элементов в вещественных массивах X и Y: '); read(n);
+
+  if (n < 1) or (n > Nmax) then writeln('Недопустимое значение для n')
+    else
+  begin
+    writeln('Введите ', n, ' элемент(ов) массива X ');
+    for i:= 1 to n do read(x[i]);
+    writeln('Введите ', n, ' элемент(ов) массива Y ');
+    for i:= 1 to n do read(y[i]);
+  end;
+
+    readln;
+    readln;
+
+
+
+   CX := 0;
+   nx := 0;
+  for i := 1 to n do
+  begin
+         if x[i] > 0 then
+         begin
+         CX := CX + x[i];
+         nx := nx + 1;
+         end;
+  end;
+  if nx < 1 then writeln ('положительных элементов в массиве X нет, ответ рассчитать невозможно')
+  else
+  begin
+      CX := CX / nx;
+   writeln('CX (среднее арифметическое положительных элементов x) = ', CX:2:3);
+  end;
+
+   CY := 0;
+   ny := 0;
+  for i := 1 to n do
+  begin
+         if y[i] > 0 then
+         begin
+         CY := CY + y[i];
+         ny := ny + 1;
+         end;
+  end;
+  if ny < 1 then writeln ('положительных элементов в массиве Y нет, ответ рассчитать невозможно')
+  else
+  begin
+      CY := CY / ny;
+   writeln('CY (среднее арифметическое положительных элементов y) = ', CY:2:3);
+  end;
+       if (ny <> 0) and (nx <> 0) then
+       begin
+         ANSWER :=   sqrt(CX*CY);
+        writeln('√(CX*CY) = ', ANSWER:2:7);
+       end;
+
+  readln;
+  readln;
+end.

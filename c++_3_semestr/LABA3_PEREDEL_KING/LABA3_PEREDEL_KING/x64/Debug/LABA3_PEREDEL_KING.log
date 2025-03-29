@@ -1,0 +1,4 @@
+﻿  LABA3_PEREDEL_KING.cpp
+C:\Users\user\Desktop\c++_3_semestr\LABA3_PEREDEL_KING\LABA3_PEREDEL_KING\LABA3_PEREDEL_KING.cpp(22,52): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+C:\Users\user\Desktop\c++_3_semestr\LABA3_PEREDEL_KING\LABA3_PEREDEL_KING\LABA3_PEREDEL_KING.cpp(197,40): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  LABA3_PEREDEL_KING.vcxproj -> C:\Users\user\Desktop\c++_3_semestr\LABA3_PEREDEL_KING\x64\Debug\LABA3_PEREDEL_KING.exe
